@@ -12,6 +12,8 @@ const content = {
     "Queso hard cheese pecorino. Caerphilly pecorino gouda taleggio cheeseburger cheese and wine taleggio croque monsieur. Airedale cheese and wine goat boursin rubber cheese bocconcini st. agur blue cheese feta. Airedale airedale when the cheese comes out everybody's happy cheese and wine cheese triangles brie cut the cheese bavarian bergkase. Gouda taleggio cream cheese emmental cheesy grin mozzarella bavarian bergkase pepper jack. Ricotta pepper jack say cheese gouda squirty cheese jarlsberg pepper jack jarlsberg. Fromage babybel macaroni cheese who moved my cheese cow pecorino.",
   office:
     "Keep it lean cadence. Deep dive i need to pee and then go to another meeting and focus on the customer journey yet performance review. Thought shower I just wanted to give you a heads-up tiger team. Ensure to follow requirements when developing solutions pulling teeth, so deep dive single wringable neck or on-brand but completeley fresh yet we need to harvest synergy effects. Let's unpack that later what's the status on the deliverables for eow?, yet in an ideal world and on this journey yet churning anomalies we want to see more charts or target rich environment",
+  bloom:
+    "It was deployed by github actions!"
 };
 
 export const Page = () => {

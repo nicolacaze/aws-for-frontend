@@ -6,7 +6,7 @@ import { Page } from './Page';
 function Application() {
   return (
     <main className="h-screen">
-      <h1 className="text-3xl font-bold bg-yellow-300 p-4 border-b-2 border-yellow-400">
+      <h1 className="text-3xl font-bold bg-pink-300 p-4 border-b-2 border-pink-400">
         Incredibly Important Thoughts
       </h1>
       <div className="grid grid-cols-12 grid-rows-1 gap-4 h-full">
@@ -19,6 +19,7 @@ function Application() {
           <NavigationLink to="/notes/cat">Cat Ipsum</NavigationLink>
           <NavigationLink to="/notes/office">Office Ipsum</NavigationLink>
           <NavigationLink to="/notes/beatles">The Beatles</NavigationLink>
+          <NavigationLink to="/notes/bloom">Bloom</NavigationLink>
         </Navigation>
         <section className="col-span-9 p-4">
           <Routes>
