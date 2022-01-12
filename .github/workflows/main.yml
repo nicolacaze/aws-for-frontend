@@ -34,5 +34,5 @@ jobs:
       - name: Deploy build files to S3
         run: aws s3 sync ./build s3://${{ secrets.S3_BUCKET_NAME }}
       - name: Create cloudfront invalidation
-        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_ID }} paths "/*"
+        run: aws cloudfront create-invalidation --distribution-id ${{ secrets.DISTRIBUTION_ID }} --paths "/*"
       
